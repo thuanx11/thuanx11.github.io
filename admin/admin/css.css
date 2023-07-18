@@ -1,0 +1,99 @@
+*{
+}
+.cha {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  
+.con0{
+  margin-left: 80px;
+}
+}
+.con1 {
+  align-items: center;
+  display: flex;
+  margin: 0px 80px;
+  background-color: green;
+}
+.con1 p {
+  margin: 0 50px;
+  font-family: sans-serif;
+  color: whitesmoke;
+}
+.con2 {
+  display: inline-block;
+  margin: auto;
+}
+.con2 input {
+  width: 300px;
+  height: 25px;
+  margin-right: 200px;
+  border-radius: 13px;
+  border: 1px solid rgb(200, 225, 248);
+  outline: none;
+  background-color: rgb(232, 240, 248);
+  padding: 5px 30px;
+}
+.con2 input::placeholder {
+  padding-left: 5px;
+}
+.menu {
+  position: relative;
+}
+.menu ul {
+  background-color: white;
+  width: 250px;
+  padding: 0;
+  list-style-type: none;
+}
+.menu ul li {
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #e8e8e8;
+  padding: 0 20px;
+  position: relative;
+  background-color: green;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+}
+.menu ul li a:hover {
+ color: black;
+}
+.menu ul li:hover {
+  background-color: yellow;
+}
+.menu .sub-menu {
+  position: absolute;
+  left: 250px;
+  top: 0;
+  display: none;
+}
+.menu ul li:hover .sub-menu {
+  display: block;
+  z-index: 1000;
+}
+hr {
+  transform: rotate(90deg);
+  width: 500px;
+  position: absolute;
+  top: 348px;
+  left: 15px;
+}
+
+.con3 {
+  margin-right: 50px;
+}
+.iput {
+  position: relative;
+
+}
+.solid {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
